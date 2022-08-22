@@ -5,7 +5,7 @@
 This is an App for 100 prisoners problem to find out more about it you can check this video from 
 Veritasium channel on youtube
 
-<U> https://www.youtube.com/watch?v=iSNsgj1OCLA <\U>
+<U> https://www.youtube.com/watch?v=iSNsgj1OCLA </U>
 
 This App test the algorithm mentioned in the video above: 
 

@@ -17,7 +17,8 @@ public class Prisoner {
 		boolean Success = false;
 		ArrayList <Box> B1 = R1.getBoxList();
 		int numberOfBoxToCheck = this.Number;
-		for (int numberOfTries = 50 ;numberOfTries > 0 ; numberOfTries--)
+		int numberOfPrisons = B1.size();
+		for (int numberOfTries = numberOfPrisons/2 ;numberOfTries > 0 ; numberOfTries--)
 		{
 			numberOfBoxToCheck = B1.get(numberOfBoxToCheck).getInsideNumber();
 			if (numberOfBoxToCheck == this.Number)

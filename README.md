@@ -1,23 +1,36 @@
-<H1>< # hundred_Prisoners </H1>
+🎲 hundred_Prisoners
+🔐 100 Prisoners Problem Simulator
 
-<B> 100 prisoners problem </B>
+This is a simple Java application that simulates the well-known 100 prisoners' problem.
 
-This is an App for 100 prisoners problem to find out more about it you can check this video from 
-Veritasium channel on youtube
+To learn more about the problem, watch this great explanation from Veritasium on YouTube:
+👉 [Veritasium - The 100 Prisoners Problem](https://www.youtube.com/watch?v=iSNsgj1OCLA&t=566s).
+🧠 About the App
 
-<U> https://www.youtube.com/watch?v=iSNsgj1OCLA </U>
+This app tests the success rate of the strategy described in the video above.
+🚀 How to Run
+  1. Clone the repository to your local machine,
+    
+  ```sh
+    git clone https://github.com/BME-Jafar/hundred_Prisoners/
+  ```
+    
+  2. Open a terminal inside the folder containing hundredPrisoners.jar.
+  3. Run the program using the following command:
+  ```java
+    java -jar hundredPrisoners.jar <number_of_prisoners> <number_of_attempts>
+  ```
 
-This App test the algorithm mentioned in the video above: 
+🔧 Example:
+  ```java
+    java -jar hundredPrisoners.jar 100 10000
+  ```
 
-To run it open a terminal inside the folder of hundredPrisoners.jar and you can type:
+This command will run the simulation for 100 prisoners, repeated 10,000 times.
 
->> java -jar hundredPrisoners.jar X XX
+📊 Sample Output
+  ```sh
+    [numberOfSuccess=30, numberOfFailings=70, ratio=0.3]
+  ```
 
-replace X with the number of prisoners you want and XX with the number of attempts for Example:
->> java -jar hundredPrisoners.jar 100 10000
-
-This will run it for 100 prisoners, 10000 times 
-
-You would get a simple output right now like this: 
-
-[numberOfSuccess=30, numberOfFailings=70, ratio=0.3]
+This shows how many times the prisoners succeeded, failed, and the overall success ratio.
